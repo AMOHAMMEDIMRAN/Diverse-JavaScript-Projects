@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    background: url(../background/bg-gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+/* .hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+.main-page{
+    width: 100%;
+}
+.container{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.header-wrapper>div div:nth-child(1) h3{
+    color: #F76C6A;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-wrapper>div div:nth-child(2) a{
+    color: #000;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid #000;
+    font-weight: 600;
+}
+
+.logo-slot-wrapper>div div:nth-child(1) h2{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700
+}
+.logo-slot-wrapper>div div:nth-child(2) div:nth-child(1) input{
+    display: none;
+}
+.logo-slot-wrapper>div div:nth-child(2) div:nth-child(2) input{
+    border-radius: 10px;
+    padding: 3px 5px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+.logo-slot-wrapper>div div:nth-child(2) div:nth-child(2) input::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+.content-page .container{
+    max-width: 800px;
+    margin: 0px auto;
+}
+.content-page .container{
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    border-radius: 30px;
+    padding: 30px;
+}
+.content-page-wrapper form:nth-child(2)>div input:nth-child(1){
+    border-radius: 10px;
+    padding: 3px 5px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+.content-page-wrapper form:nth-child(2)>div input:nth-child(1)::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+.content-page-wrapper form:nth-child(2)>div input:nth-child(2){
+    padding: 0px 25px;
+    border-radius: 10px;
+    font-size: 36px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+.content-page-wrapper form:nth-child(2)>div input:nth-child(2):hover{
+    background: #09ff0067;
+}
+.content-page-wrapper div:nth-child(3){
+    padding: 30px 0px;
+}
+.content-page-wrapper div:nth-child(3) ul{
+    list-style: none;
+}.content-page-wrapper div:nth-child(3) ul li{
+    padding: 10px 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    border-radius: 30px;
+}
+.content-page-wrapper div:nth-child(3) ul li span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.content-page-wrapper div:nth-child(3) ul li button{
+    color: #000;
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid #000;
+    font-weight: 600;
+}
+.content-page-wrapper div:nth-child(3) ul li button:hover{
+    background-color: rgba(255, 16, 16, 0.402);
+}

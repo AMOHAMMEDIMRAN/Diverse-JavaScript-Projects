@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST CALCULATOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading text-center mt-5 d-flex justify-content-between">
+            <h2>GST CALCULATOR</h2>
+            <button class="btn btn-dark"><a href="https://www.instagram.com/immucoder/?hl=en">Developer</a></button>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="text-start">
+                    <form id="form">
+                        <button id="btn-1" value="18" class="btn btn-dark mt-5 me-5">18%</button>
+                        <button id="btn-2" value="28" class="btn btn-dark mt-5">28%</button>
+                        <input type="number" id="input-percentage-value" disabled class="form-control mt-5" placeholder="SELECT THE ABOVE PERCENTAGE">
+                        <input type="number" id="input-value" class="form-control mt-5" placeholder="ENTER THE AMOUNT">
+                        <button type="submit" class="btn btn-dark mt-5">Calculate GST</button>
+                    </form>
+                </div>     
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="text-center">
+                    <div class="result"></div>
+                </div>
+            </div>
+        </div>
+    <div class="mt-4">
+        <ul>
+            <li><strong>0% GST (Exempted):</strong> Certain items are exempt from GST, including fresh fruits and vegetables, certain educational and healthcare services.</li>
+            <li><strong>0.25% GST:</strong> Applied to precious stones and jewelry.</li>
+            <li><strong>3% GST:</strong> Applied to gold and gold jewelry.</li>
+            <li><strong>5% GST:</strong> This is typically applied to essential goods and services. Examples include certain food items, footwear priced below a specified threshold, and transportation services.</li>
+            <li><strong>12% GST:</strong> This rate is applied to goods and services considered to be of standard use. Examples include processed foods, certain medicines, and business class air travel.</li>
+            <li><strong>18% GST:</strong> This is the most common GST rate, covering a wide range of goods and services. Examples include financial services, telecommunications, and many consumer products like computers and hair oil.</li>
+            <li><strong>28% GST:</strong> This rate is applied to luxury items and sin goods. Examples include luxury cars, high-end motorcycles, and tobacco products.</li>
+        </ul>
+    </div>
+        
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

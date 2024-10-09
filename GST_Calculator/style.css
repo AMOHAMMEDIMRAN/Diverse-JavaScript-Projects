@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body{
+  background: url(./bg-img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#input-percentage-value{
+    max-width: 280px;
+}
+#input-value{
+    max-width: 280px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+a:hover{
+    color: #ffffff;
+}
+ul li{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+strong{
+  color: #ffffff;
+}
